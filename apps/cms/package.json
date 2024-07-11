@@ -5,6 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
+        "build:open": "open-next build",
         "start": "next start",
         "lint": "next lint",
         "generate:types": "payload generate:types"
@@ -16,6 +17,7 @@
         "@swc/core": "^1.4.17",
         "graphql": "^16.8.1",
         "next": "14.2.3",
+        "open-next": "^3.0.1",
         "payload": "3.0.0-beta.20",
         "react": "^18",
         "react-dom": "^18",
@@ -25,7 +27,7 @@
         "@types/node": "^20",
         "@types/react": "^18",
         "@types/react-dom": "^18",
-        "typescript": "^5"
+        "typescript": "5.4.5"
     },
     "engines": {
         "node": ">=18"
