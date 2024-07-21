@@ -11,23 +11,27 @@
         "generate:types": "payload generate:types"
     },
     "dependencies": {
-        "@payloadcms/db-mongodb": "3.0.0-beta.20",
-        "@payloadcms/next": "3.0.0-beta.20",
-        "@payloadcms/richtext-lexical": "3.0.0-beta.20",
+        "@payloadcms/db-mongodb": "3.0.0-beta.67",
+        "@payloadcms/next": "3.0.0-beta.67",
+        "@payloadcms/richtext-lexical": "3.0.0-beta.67",
         "@swc/core": "^1.4.17",
         "graphql": "^16.8.1",
-        "next": "14.2.3",
+        "next": "15.0.0-canary.58",
         "open-next": "^3.0.1",
-        "payload": "3.0.0-beta.20",
-        "react": "^18",
-        "react-dom": "^18",
-        "sitecenter": "^0.1.4-alpha.2"
+        "payload": "3.0.0-beta.67",
+        "react": "^19.0.0-rc-6230622a1a-20240610",
+        "react-dom": "^19.0.0-rc-6230622a1a-20240610",
+        "sitecenter": "^0.1.4-alpha.4"
     },
     "devDependencies": {
-        "@types/node": "^20",
-        "@types/react": "^18",
-        "@types/react-dom": "^18",
+        "@types/node": "^20.14.9",
+        "@types/react": "npm:types-react@19.0.0-rc.0",
+        "@types/react-dom": "npm:types-react-dom@19.0.0-rc.0",
         "typescript": "5.4.5"
+    },
+    "overrides": {
+        "@types/react": "npm:types-react@rc",
+        "@types/react-dom": "npm:types-react-dom@rc"
     },
     "engines": {
         "node": ">=18"

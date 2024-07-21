@@ -1,8 +1,8 @@
 import path from 'node:path'
+import { buildConfig } from 'payload'
 import { fileURLToPath } from 'node:url'
 import { mongooseAdapter } from '@payloadcms/db-mongodb'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
-import { buildConfig } from 'payload/config'
 import { sitecenter } from 'sitecenter/cms/cloud'
 
 // Your collections imports
