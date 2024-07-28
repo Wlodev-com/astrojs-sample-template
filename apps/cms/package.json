@@ -17,7 +17,7 @@
         "payload": "3.0.0-beta.70",
         "react": "^19.0.0-rc-6230622a1a-20240610",
         "react-dom": "^19.0.0-rc-6230622a1a-20240610",
-        "sitecenter": "0.1.4-alpha.11"
+        "sitecenter": "0.1.4-alpha.12"
     },
     "devDependencies": {
         "@swc/core": "^1.7.3",

@@ -13,6 +13,6 @@
         "astro": "^4.12.2",
         "@astrojs/check": "^0.8.3",
         "typescript": "^5.5.4",
-        "sitecenter": "0.1.4-alpha.11"
+        "sitecenter": "0.1.4-alpha.12"
     }
 }
