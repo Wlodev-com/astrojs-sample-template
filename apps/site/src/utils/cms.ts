@@ -1,7 +1,6 @@
-import { createCMSClient } from 'sitecenter/cms/client'
-// @ts-ignore
+import { initCMSClient } from 'sitecenter'
 import type { Config } from '../../../cms/src/payload-types'
 
-export const cms = createCMSClient<Config>({
-    baseURL: 'http://localhost:3000/api',
+export const cms = initCMSClient<Config>({
+    url: `${import.meta.env.CMS_URL}/api`,
 })
